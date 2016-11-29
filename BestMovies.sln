@@ -5,6 +5,16 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestMovies.Web.Services", "BestMovies.Web.Services\BestMovies.Web.Services.csproj", "{FEF3B4FB-0EFF-4DB6-9DCE-D2E53B613FD3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{CC604288-9AFC-4575-ABA6-7550F54AC859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{3C2AFE42-4467-4081-8960-57A76AF3D569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{35263737-406E-40BB-B481-0C5069EC8AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCricketers.Models", "BestCricketers.Models\BestCricketers.Models.csproj", "{5E67E708-89F0-4597-9F79-05DCFB4F4657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCricketers.Core", "BestCricketers.Core\BestCricketers.Core.csproj", "{2F50A7B4-CEF1-4178-8E50-B7B6E61F7E2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +25,24 @@ Global
 		{FEF3B4FB-0EFF-4DB6-9DCE-D2E53B613FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEF3B4FB-0EFF-4DB6-9DCE-D2E53B613FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEF3B4FB-0EFF-4DB6-9DCE-D2E53B613FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E67E708-89F0-4597-9F79-05DCFB4F4657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E67E708-89F0-4597-9F79-05DCFB4F4657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E67E708-89F0-4597-9F79-05DCFB4F4657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E67E708-89F0-4597-9F79-05DCFB4F4657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F50A7B4-CEF1-4178-8E50-B7B6E61F7E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F50A7B4-CEF1-4178-8E50-B7B6E61F7E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F50A7B4-CEF1-4178-8E50-B7B6E61F7E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F50A7B4-CEF1-4178-8E50-B7B6E61F7E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEF3B4FB-0EFF-4DB6-9DCE-D2E53B613FD3} = {3C2AFE42-4467-4081-8960-57A76AF3D569}
+		{5E67E708-89F0-4597-9F79-05DCFB4F4657} = {CC604288-9AFC-4575-ABA6-7550F54AC859}
+		{2F50A7B4-CEF1-4178-8E50-B7B6E61F7E2E} = {35263737-406E-40BB-B481-0C5069EC8AB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
