@@ -230,6 +230,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BestCricketers.Core\BestCricketers.Core.csproj">
+      <Project>{2F50A7B4-CEF1-4178-8E50-B7B6E61F7E2E}</Project>
+      <Name>BestCricketers.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BestCricketers.Models\BestCricketers.Models.csproj">
+      <Project>{5E67E708-89F0-4597-9F79-05DCFB4F4657}</Project>
+      <Name>BestCricketers.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
